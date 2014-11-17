@@ -1,13 +1,16 @@
 {
-  "name": "s-inbound",
+  "name": "we-inbound",
   "version": "1.0.0",
   "description": "Url referrer and campaign parsing utilities",
-  "author": "Ilya Volodarsky <ilya@segment.io>, Adam Solove <asolove@gmail.com>",
+  "author": "Ilya Volodarsky <ilya@segment.io>",
   "engines": {
     "node": ">= 0.8"
   },
   "main": "./index",
-  "repository": "git://github.com/segmentio/inbound",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/manshkashyap/inbound"
+  },
   "scripts": {
     "test": "mocha --reporter spec"
   },
@@ -20,7 +23,18 @@
     "should": "*",
     "mocha": "*"
   },
-  "publishConfig": {
-    "registry": "https://registry.segment.io"
-  }
+  "bugs": {
+    "url": "https://github.com/manshkashyap/inbound/issues"
+  },
+  "homepage": "https://github.com/manshkashyap/inbound",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "keywords": [
+    "Inbound",
+    "URL",
+    "Parser"
+  ],
+  "license": "ISC"
 }
